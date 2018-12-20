@@ -30,6 +30,7 @@ public class AddTaskActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_task);
 
+
         etTitle=findViewById(R.id.etTitle);
         etText=findViewById(R.id.etTaskText);
         etDueDate=findViewById(R.id.etDueDate);
